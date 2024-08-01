@@ -1,0 +1,28 @@
+.contact {
+}
+
+.contact__copywriter{
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(66, 69, 80);
+    font-size: 24px;
+    line-height: 33.6px;
+}
+
+.contact__location {
+    border-top: 1px solid #000;
+
+}
+
+.contact__location__title {
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(34, 35, 44);
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.contact__location {
+    display: flex;
+    justify-content: space-between;
+}
