@@ -1,0 +1,35 @@
+.profile {
+    border: solid 1px #d1d5e0;
+    border-radius: 3em;
+    background-color: #ebf0f7;
+    display: none;
+}
+
+.profile__name {
+    padding: 0;
+    margin:0;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(34, 35, 44);
+    font-size: 28px;
+    line-height: 29.68px;
+}
+
+.profile__avatar {
+    border-radius: 2em;
+    padding: 0.5em 0;
+}
+
+.profile__ask {
+    display: block;
+    font: normal 400 0.9em "Syne", sans-serif;
+    color: #424550;
+}
+
+.profile__answer {
+    display: block;
+    font-size: 1.3em;
+    font-family: "Syne", sans-serif;
+    color: #0e0e12;
+    font-weight: bold;
+}

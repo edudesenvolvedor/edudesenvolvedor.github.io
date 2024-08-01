@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar__item {
+    padding: 10px;
+}
+
+.navbar__item:first-child {
+    padding-left: 0;
+}
+
+.navbar__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(113, 117, 134);
+    font-size: 16px;
+    line-height: 50px;
+}
+

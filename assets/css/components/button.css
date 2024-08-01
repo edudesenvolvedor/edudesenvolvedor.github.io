@@ -1,0 +1,42 @@
+.btn {
+    padding: 4px 35px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #717586;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+
+}
+
+.btn:hover {
+    color: #22232c;
+}
+
+.btn--active {
+    border: solid 1px #c6c6c6;
+    color: #22232c;
+}
+
+.btn--outline {
+    border: solid 1px #c6c6c6;
+    color: #22232c;
+}
+
+.btn--ghost {
+
+}
+
+.btn--stretch {
+    width: calc(100% - 30px);
+    display: flex;
+    justify-content: center;
+}
+
+.btn--call-action {
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+}
